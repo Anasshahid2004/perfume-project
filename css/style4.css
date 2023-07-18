@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.dashed{
+    width: 500px;
+    height: 500px;
+    margin: 250px 450px;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(183, 174, 174);
+    border: 5px dashed black;
+    box-shadow: -15px 15px 20px 15px #2a292991;
+    
+  }
+

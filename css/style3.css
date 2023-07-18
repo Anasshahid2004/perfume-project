@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+}
+
+.dashed{
+    width: 500px;
+    height: 500px;
+    margin: 250px 450px;
+    border-radius: 100px 1px 100px 1px;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(183, 174, 174);
+    border: 5px dashed black;
+    box-shadow: -15px 15px 20px 15px #2a292991;
+    
+  }
+
+.dashed:hover{
+    background-color: rgb(28, 80, 15);
+}
+
+.dashed > div {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(77, 77, 77);
+    border: 5px dashed;
+    margin: 25px 50px;
+
+  }
+
+.dashed > div:hover{
+    background-color: rgb(62, 188, 23);
+}
+
+.dashed > div > div {
+    background-color: rgb(59, 59, 58);
+    height: 300px;
+    width: 300px;
+    border: 5px dashed;
+    font-size: 20px;
+    margin: 25px 50px;
+    
+} 
+
+.dashed > div > div:hover{
+    background-color: rgb(123, 198, 98);
+}
+.dashed > div > div > div {
+    background-color: rgb(233, 233, 222);
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 52px;
+    
+} 
+
+.dashed > div > div > div:hover{
+    background-color: rgb(179, 217, 175);
+}

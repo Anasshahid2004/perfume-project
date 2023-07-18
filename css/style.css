@@ -1,0 +1,41 @@
+/*  Universal selector */
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgba(223, 224, 224, 0.418);
+    
+}
+
+.abc{
+    color: blueviolet;
+    text-decoration: line-through;
+
+}
+
+#Internal-style {
+    color: #b6b6b6;
+    text-decoration: line-through;
+    font-style: italic;
+  }
+
+li{
+    font-size: 20px;
+    background-color: yellow;
+    margin-bottom: 2px;
+}
+
+h1, h2{
+    padding: 13px 15px 11px;
+    font-style: normal;
+}
+
+.css{
+    color: pink;
+}
+
+
+
+
+
